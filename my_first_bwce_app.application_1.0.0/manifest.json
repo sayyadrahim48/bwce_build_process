@@ -1,0 +1,13 @@
+{
+	"name" : "my_first_bwce_app.application",
+	"version" : "1.0",
+	"type" : "ipaas",
+	"endpoints" : [
+		{
+			"type" : "private",
+			"pingable" : true,
+			"protocol" : "http",
+			"port" : "7777"
+		}
+	]
+}
