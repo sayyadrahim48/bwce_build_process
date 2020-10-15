@@ -2,6 +2,14 @@
 	"name" : "my_first_bwce_app.application",
 	"version" : "1.0",
 	"type" : "ipaas",
+	"propertyPrefix" : "iPaaS_USER_OverRIDE_",
+	"properties" : [
+		{
+			"name" : "filename",
+			"datatype" : "string",
+			"default" : "/opt/myfile"
+		}
+	],
 	"endpoints" : [
 		{
 			"type" : "private",
